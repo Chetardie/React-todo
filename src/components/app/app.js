@@ -17,7 +17,7 @@ export default class App extends Component {
             this.createTodoItem('repeat')
           ],
         term: '',
-        filter: 'done'
+        filter: 'all'
     };
 
     createTodoItem(label) {
